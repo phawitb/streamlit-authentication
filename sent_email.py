@@ -6,8 +6,8 @@ from email.mime.application import MIMEApplication
 def sent_otp(email,otp_sented):
     # Email configuration
     sender_email = 'legalexecution.app@gmail.com'
-    sender_password = 'cdvliiztutkrwooa' #'Legalexecution.app1'
-    receiver_email = email #'phawit.boo@gmail.com'
+    sender_password = 'cdvliiztutkrwooa' 
+    receiver_email = email
     subject = 'OTP from LED APP'
     message_text = f'OTP is <{otp_sented}>'
 
